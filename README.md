@@ -1,10 +1,6 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="Distance" width="800" />
+  <img src="/assets/Banner.jpg" alt="Distance" width="800" />
 </p>
-
-<br />
-
-<br />
 
 ---
 
@@ -16,7 +12,7 @@
 
 ## How it works
 
-A lightweight agent runs on the host machine and exposes capabilities to any connected client over WebSocket. The client requests what it needs — video stream, file system, shell session, or more. The agent handles the rest.
+A lightweight agent runs on the host machine and exposes capabilities to any connected client over WebSocket. The client requests what it needs; video stream, file system, shell session, or more. The agent handles the rest.
 
 ```
 C capture module  →  Python agent  →  Web client
