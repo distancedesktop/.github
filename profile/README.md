@@ -20,6 +20,7 @@ Early development. Desktop streaming is... functional. Additional capabilities i
 ## Goals for 1.0.0
  - NVENC support for Windows, Linux (X11 or Wayland)
  - Capture Support for macOS (ScreenCaptureKit, arch. agnostic)
+ - Reach desktops via. WebTransport, WebSocket, Raw UDP (Local or Remote)
 
 ## Later goals
  - AMD support on Windows & Linux
