@@ -8,20 +8,25 @@
 
 | Repo | Description |
 |------|-------------|
-| `distance` | Core — C encoder, Python agent, web client |
+| `encode` |  Quick hardware-accelerated Desktop Capture in C |
+| `web` | Web Client for accessing remote clients in a browser |
+| `agent` | React + Vite-based gateway between your PC and any other component of Distance |
 
-## How it works
-
-A lightweight agent runs on the host machine and exposes capabilities to any connected client over WebSocket. The client requests what it needs; video stream, file system, shell session, or more. The agent handles the rest.
-
-```
-C capture module  →  Python agent  →  Web client
-   (encode)           (gateway)        (browser)
-```
 
 ## Status
 
-Early development. Desktop streaming is functional. Additional capabilities in progress.
+Early development. Desktop streaming is... functional. Additional capabilities in progress.
+
+## Goals for 1.0.0
+ - NVENC support for Windows, Linux (X11 or Wayland)
+ - Capture Support for macOS (ScreenCaptureKit, arch. agnostic)
+
+## Later goals
+ - AMD support on Windows & Linux
+ - Intel QuickSync on Windows and Linux
+ - Desktop App
+ - Containers
+ - Selfhosted VDI platform (...?)
 
 ---
 
